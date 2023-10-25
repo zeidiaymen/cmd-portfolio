@@ -18,7 +18,7 @@ document.addEventListener("DOMContentLoaded", function () {
   const menus = {
     main: `Select a menu:<br><span onclick="handleMenuClick('1')">[1] Who is ZEIDI Aymen?</span><br><span onclick="handleMenuClick('2')">[2] Contact me</span><br><span onclick="handleMenuClick('3')">[3] My works</span><br><span onclick="handleMenuClick('4')">[4] Achievements</span>`,
     1: `Who is ZEIDI Aymen?<br><br>I'm ZEIDI Aymen, a dedicated professional in the tech world. My journey in the technology field has been diverse and exciting. From software development to innovative projects, I've covered a wide range of domains. <br><br>Feel free to contact me through the following email address: <a href="mailto:zeidia@3il.fr">zeidia@3il.fr</a><br><br><span onclick="handleMenuClick('B')">[B] Back</span>`,
-    2: `Contact:<br>- Email: <a href="mailto:zeidia@alteca.fr">zeidia@alteca.fr</a><br>
+    2: `Contact:<br>- Email: <a href="mailto:zeidia@3il.fr">zeidia@3il.fr</a><br>
         - Phone: <a href="#"> +33 (0) 7 80 78 76 57</a><br>
         <br><span onclick="handleMenuClick('B')">[B] Back</span>`,
     3: `Some of my Projects:<br><br>
@@ -37,8 +37,8 @@ document.addEventListener("DOMContentLoaded", function () {
    Contact me to hear more</strong> : ....  <br><span onclick="handleMenuClick('B')">[B] Back</span>`,
 
     4: `Achievements :<br> Top of the class at 3il engineering school in 2023  <br>
-     Top of the class in the TWIN option in 2022  
-     ESPRIT Project Ball 2022  <br>
+     Top of the class in the TWIN option in 2022  <br>
+     1st ESPRIT "bal des projets" 2022  <br>
      Google Africa Developer certification  <br>
      4 stars in HackerRank   <br><span onclick="handleMenuClick('B')">[B] Back</span>`,
   };
